@@ -41,14 +41,14 @@ So there is no need to run below command before running it locally.
 `uvicorn main:app --reload --host 127.0.0.1 --port 8000` 
 
 ## Test the endpoints 
-
+```
 curl http://127.0.0.1:8000/ 
 curl http://127.0.0.1:8000/health 
 curl http://127.0.0.1:8000/me 
-
+``` 
 
 ## Live URL 
-https://tekworld.name.ng 
+(https://tekworld.name.ng)  
 
 
 ### SSL is enabled using Let's Encrypt (Certbot), ensuring secure HTTPS communication with automatic redirect HTTP to HTTPS
